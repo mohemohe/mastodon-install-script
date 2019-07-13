@@ -1,9 +1,7 @@
 # NOTICE
 **RUN ONLY ON YOUR RESPONSIBLLITY.**  
 
-<strike>This script is only for RasPi (ARMv6).  </strike>
-<strike>In case of me, I executed on `RasPi zero w` and `Raspbian Stretch based on Debian 9.6`.  </strike>
-<strike>This was tested on 8th Dec 2018; latest versions of Mastodon was "v2.6.5", of Ruby was "2.5.3", of yarn was "1.12.3".</strike>  
+This branch is For Raspberry Pi.
 
 Fixed for Mastodon v2.7.3 and Ruby 2.6.0 on x64. 
 
