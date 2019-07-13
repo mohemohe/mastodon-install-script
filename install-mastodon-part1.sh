@@ -16,8 +16,8 @@ sudo systemctl restart dphys-swapfile
 
 
 # If error occured, check the latest version at https://nodejs.org/dist/latest-v8.x/
-#wget https://nodejs.org/dist/latest-v8.x/node-v8.15.0-linux-armv6l.tar.gz
-wget https://nodejs.org/dist/latest-v8.x/node-v8.16.0-linux-x64.tar.gz
+wget https://nodejs.org/dist/latest-v8.x/node-v8.15.0-linux-armv6l.tar.gz
+#wget https://nodejs.org/dist/latest-v8.x/node-v8.16.0-linux-x64.tar.gz
 tar -zxvf node-v8.*.tar.gz
 sudo cp -R node-v8.*/* /usr/local/
 sudo ln -s /usr/local/bin/npm /usr/bin/npm
@@ -43,7 +43,8 @@ sudo apt install -y \
   bison build-essential libssl-dev libyaml-dev libreadline6-dev \
   zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev \
   nginx redis-server redis-tools postgresql postgresql-contrib \
-  letsencrypt libidn11-dev libicu-dev libjemalloc-dev
+  certbot libidn11-dev libicu-dev libjemalloc-dev python-certbot-nginx
+
 
 # Install rbenv and rbenv-build 
 # `rbenv install` will take a lot of time. Drink some tea.
